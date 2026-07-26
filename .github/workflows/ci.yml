@@ -18,6 +18,12 @@ jobs:
 
     runs-on: ubuntu-latest
 
+    env:
+      VITE_SITE_NAME: Shop
+      VITE_SITE_DESCRIPTION: Modern React storefront demonstration
+      VITE_SITE_URL: https://ci.invalid
+      VITE_FAVICON_PATH: /brand/favicon.svg
+
     steps:
       - name: Check out repository
         uses: actions/checkout@v6
