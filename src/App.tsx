@@ -1,11 +1,13 @@
-import { StorefrontLayout } from './components/layout/StorefrontLayout'
-import { useStorefront } from './hooks/useStorefront'
-import './App.css'
+import { RouterProvider } from "react-router/dom";
+import { router } from "./app/router/router";
+import { AppProviders } from "./app/providers/AppProviders";
 
 function App() {
-  const storefront = useStorefront()
-
-  return <StorefrontLayout storefront={storefront} />
+  return (
+    <AppProviders>
+      <RouterProvider router={router} />
+    </AppProviders>
+  );
 }
 
-export default App
+export default App;

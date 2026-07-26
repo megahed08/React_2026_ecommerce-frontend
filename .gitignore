@@ -1,5 +1,28 @@
+# Dependencies
+node_modules/
+
+# Production builds
+dist/
+dist-ssr/
+
+# Test and coverage output
+coverage/
+
+# Environment configuration
+.env
+.env.*
+!.env.example
+*.local
+
+# TypeScript and Vite caches
+*.tsbuildinfo
+.vite/
+.vite-temp/
+.tmp/
+temp/
+
 # Logs
-logs
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -7,16 +30,18 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# macOS and Windows metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
 
-# Editor directories and files
+# IDE and editor files
+.idea/
 .vscode/*
 !.vscode/extensions.json
-.idea
-.DS_Store
+
 *.suo
 *.ntvs*
 *.njsproj

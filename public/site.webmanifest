@@ -1,0 +1,21 @@
+{
+  "name": "Shop",
+  "short_name": "Shop",
+  "description": "Modern React storefront demo with customer checkout and product administration.",
+  "lang": "en-US",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f8fafc",
+  "theme_color": "#06323d",
+  "icons": [
+    {
+      "src": "/brand/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
